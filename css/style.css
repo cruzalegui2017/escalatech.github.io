@@ -1,0 +1,143 @@
+﻿*{
+    margin:0;
+    padding:0; 
+}
+body{
+    background: #e9ebee;
+    color:#222;
+    text-decoration: none;
+}
+header{
+    width: 1000px;
+    height: auto;
+    margin: 0;
+}
+nav{
+    height:auto;
+    width:100%;
+}
+nav ul {
+    list-style: none;
+    height: auto;
+    width: 100%; 
+    text-align: center;   
+}
+nav ul li{
+    display: inline-block;
+    padding: 10px;
+    margin: 0px 10.9px; 
+}
+nav ul li a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0;
+}
+#logo{
+    font-size: 10px;
+    background: #448AFF;
+    color: #fff;
+    margin:0px 0px;
+}
+.menu{
+    position: fixed;
+    top: 0px;
+    z-index: 1000;
+    max-height: 50px;
+    background: #fff;
+}
+a{
+    text-decoration: none;
+}
+.main {
+    height: auto;
+    max-width: 100%;
+}
+.slide {
+    width:100%;
+}
+.slide img{
+    width: 100%
+}
+.slidesjs-pagination{
+    background: #424242;
+    list-style:none;
+    overflow: hidden;
+}
+.slidesjs-pagination li {
+    float:left;
+}
+.slidesjs-pagination li a {
+    display:block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+}
+.slidesjs-pagination li a:hover {
+    display:block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    background: #000;
+}
+.slides .active {
+    background: black;
+    padding: 10px 20px;
+}
+.slidesjs-navigation{
+    background:cornflowerblue;
+    color:#fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    float: right;
+}
+.social{
+    position: fixed;
+    left: 0px;
+    top:200px;
+    z-index: 2000;
+}
+.social ul {
+    list-style: none;
+}
+.social ul li a {
+    display:inline-block;
+    color:#fff;
+    background: #000;
+    padding: 10px 15px;
+    list-style: none;
+    text-decoration: none;
+}
+.social ul li .icon-facebook { background:#3b5998; }
+.social ul li .icon-google-plus { background:#d95232; }
+.social ul li .icon-linkedin { background:#0c19ce; }
+.social ul li .icon-skype { background:#616bf9; }
+.social ul li a:hover {
+    padding:10px 30px;
+    background: #000;
+}
+header{
+    background-color:#fff;
+    text-align: center;
+}
+h1{
+    text-align: right;
+}
+h2,h3,h4,h5,h6 {
+    margin:10px 20px;
+    position: relative;
+}
+.introduccion{
+    font-size: 30px;
+    text-align: center;
+}
+section{
+    margin: 50px 0px;
+}
+footer{
+    text-align: center;
+    background-color:rgba(120,120,120, .5);
+    color: #fff;
+    width: 100%;
+    line-height: 3;
+}

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> Escala Atech </title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/icon/style.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <script src="js/facebook.js"></script>
+        <meta name="description" content="dependencia excesiva de la tecnologia"/>
+        <meta name="google" content="notranslate"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimun.scale=1.0">
+        <script type="text/javascript"src="https://www.gstatic.com/cv/js/sender/v1/cast_sender.js?loadCastFramework=1"></script>
+        <script src="js/jquery-3.1.1.min.js"> </script>
+        <script src="js/jquery.slides.js"></script>
+        <script src="js/nombre.js"></script
+    </head>
+    <body>
+        <header>
+            <nav class="nav-collapse">
+                <div class="menu">
+                    <ul>
+                        <li  id="logo">ESCALA <br> ATECH</li>
+                        <li><a href="https://sites.google.com/view/escala-atech/p%C3%A1gina-principal"target="_bank">WEB PRINCIPAL</a></li>
+                        <li><a href="Dependencia a la tecnologia.html"target="_bank">MENU</a></li>
+                        <li><a href="https://www.youtube.com/watch?v=amyn-GcJwSM&list=PLqxQrAwVfmk1SDxhj__bFMO5K4CYON9z0"target="_bank">VIDEOS</a></li>
+                        <li><a href="#">WORPRESS</a></li>
+                        <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfs7qe9r5Jz1aJH_SjrJVGimzLMz3vamA3JfHAahI1Th7AD3Q/viewform"target="_bank">ESCALA LIKERT</a></li>
+                        <li><a href="#">APLICACIONES</a></li>
+                        <li><a href="#">LIBROS</a></li>
+                        <li><a href="Cursos.html"target="_bank">CURSOS </a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <section>
+            <article>
+                <div class="main">
+                    <div class="slides">
+                        <img src="imagen/g_02.jpg"></img>
+                        <img src="imagen/t_02.jpg"></img>
+                        <img src="imagen/o_03.jpg"></img>
+                        <img src="imagen/c_01.jpg"></img>
+                        <img src="imagen/g_01.jpg"></img>
+                    </div>
+                </div>
+            </article>
+            <div class="introduccion">
+                    <script>
+                        document.write("Bienvenido a mi pagina "+ user_name + ", "+ "esperamos contar con tu apoyo, llenando la escala " );
+                    </script>
+                    <article>
+                        <a href="" id="login"class="btn btn-primary">Iniciar Sesion </a>
+                            <script>
+                                (function(d, s, id){
+                                        var js, fjs = d.getElementsByTagName(s)[0];
+                                        if (d.getElementById(id)) {return;}
+                                        js = d.createElement(s); js.id = id;
+                                        js.src = "//connect.facebook.net/en_US/sdk.js";
+                                        fjs.parentNode.insertBefore(js, fjs);
+                                    }(document, 'script', 'facebook-jssdk'));
+                            </script>
+                    </article>           
+            </div>
+            <article>
+                <div class="social">
+                    <ul>
+                        <li><a href="https://www.facebook.com/Adicción-a-la-Tecnología-1280747138647705/?ref=settings" target="_bank" class="icon-facebook"> </a></li>
+                        <li><a href="https://plus.google.com/collection/EGqiBE" class="icon-google-plus"></a></li>
+                        <li><a href="#" class="icon-skype"></a></li>
+                        <li><a href="#" class="icon-linkedin"></a></li>
+                    </ul>
+                </div>
+            </article>         
+            <div style="text-align:center;"class="video">
+            <div  id="player">
+                    <script>
+                      var tag = document.createElement('script');
+
+                      tag.src = "https://www.youtube.com/iframe_api";
+                      var firstScriptTag = document.getElementsByTagName('script')[0];
+                      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+                      var player;
+                      function onYouTubeIframeAPIReady() {
+                        player = new YT.Player('player', {
+                          height: '500',
+                          width: '80%',
+                          videoId: '3yD68eYSZUI',
+                          events: {
+                            'onReady': onPlayerReady,
+                            'onStateChange': onPlayerStateChange
+                          }
+                        });
+                      }
+
+                      // 4. The API will call this function when the video player is ready.
+                      function onPlayerReady(event) {
+                        event.target.playVideo();
+                      }
+
+                      function onPlayerStateChange(event) {
+                        if (event.data == YT.PlayerState.PLAYING && !done) {
+                          setTimeout(stopVideo, 6000);
+                          done = true;
+                        }
+                      }
+                      function stopVideo() {
+                        player.stopVideo();
+                      }
+                    </script>
+            </div>
+            </div>
+        </section>
+        <footer>
+           <p>
+            &copy Todos los Derechos Reservado | Fernando Cruzalegui
+           </p>
+        </footer>
+            <script>
+                $(function(){
+                    $(".slides").slidesjs({
+        
+                });
+            });
+            </script>
+    </body>
+</html>
